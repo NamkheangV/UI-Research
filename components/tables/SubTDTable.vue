@@ -21,21 +21,9 @@
         </td>
       </tr>
 
-      <tr class="border-b">
-        <td class="p-3">{{ "เรือนจำจังหวัดกระบี่" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-      </tr>
-
-      <tr class="border-b">
-        <td class="p-3">{{ "เรือนจำจังหวัดกระบี่" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-        <td class="p-3 text-center">{{ "89" }}</td>
-      </tr>
-
-      <tr class="border-b">
+      <tr
+        v-for="(item, index) in 3"
+        class="border-b">
         <td class="p-3">{{ "เรือนจำจังหวัดกระบี่" }}</td>
         <td class="p-3 text-center">{{ "89" }}</td>
         <td class="p-3 text-center">{{ "89" }}</td>
